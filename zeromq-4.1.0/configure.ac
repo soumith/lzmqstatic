@@ -565,9 +565,7 @@ AC_SUBST(LIBZMQ_EXTRA_LDFLAGS)
 AC_CONFIG_FILES([Makefile \
     src/Makefile \
     src/libzmq.pc \
-    doc/Makefile \
     perf/Makefile \
-    tools/Makefile \
     builds/msvc/Makefile \
     foreign/openpgm/Makefile \
     builds/redhat/zeromq.spec])

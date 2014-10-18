@@ -1,12 +1,12 @@
 ACLOCAL_AMFLAGS = -I config
 
 if BUILD_PGM
-SUBDIRS = foreign/openpgm src doc perf tools
+SUBDIRS = foreign/openpgm src perf
 else
-SUBDIRS = src doc perf tools
+SUBDIRS = src perf
 endif
 
-DIST_SUBDIRS = foreign/openpgm src doc perf tools builds/msvc
+DIST_SUBDIRS = foreign/openpgm src perf builds/msvc
 
 EXTRA_DIST = \
 	CMakeLists.txt \
