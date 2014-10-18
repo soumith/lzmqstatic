@@ -567,7 +567,6 @@ AC_CONFIG_FILES([Makefile \
     src/libzmq.pc \
     doc/Makefile \
     perf/Makefile \
-    tests/Makefile \
     tools/Makefile \
     builds/msvc/Makefile \
     foreign/openpgm/Makefile \

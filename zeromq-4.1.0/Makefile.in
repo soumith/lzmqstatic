@@ -256,9 +256,9 @@ top_build_prefix = @top_build_prefix@
 top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
 ACLOCAL_AMFLAGS = -I config
-@BUILD_PGM_FALSE@SUBDIRS = src doc perf tests tools
-@BUILD_PGM_TRUE@SUBDIRS = foreign/openpgm src doc perf tests tools
-DIST_SUBDIRS = foreign/openpgm src doc perf tests tools builds/msvc
+@BUILD_PGM_FALSE@SUBDIRS = src doc perf tools
+@BUILD_PGM_TRUE@SUBDIRS = foreign/openpgm src doc perf tools
+DIST_SUBDIRS = foreign/openpgm src doc perf tools builds/msvc
 EXTRA_DIST = \
 	CMakeLists.txt \
 	autogen.sh	\
