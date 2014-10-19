@@ -25,7 +25,7 @@ ADD_LIBRARY(lzmqstatic MODULE ${src})
 
 MESSAGE("${LUA_LIBDIR}")
 
-TARGET_LINK_LIBRARIES(lzmqstatic "${CMAKE_CURRENT_SOURCE_DIR}/lib/lib/libzmq.a" "${LUA_LIBDIR}/libluajit.dylib" stdc++ gssapi_krb5)
+TARGET_LINK_LIBRARIES(lzmqstatic "${CMAKE_CURRENT_SOURCE_DIR}/lib/lib/libzmq.a" "${LUA_LIBDIR}/libluajit.dylib" stdc++)
 
 SET_TARGET_PROPERTIES(lzmqstatic PROPERTIES
       PREFIX "lib"
